@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: demo
+spec: 
+  containers:
+  - image: nginx
+    name: nginx-container
+    imagePullPolicy: Always
+    volumeMounts:
+    - mountPath: "/mnt"
+      name: demo
+  volumes:
+    - name: demo
+      persistentVolumeClaim:
+        claimName: demo
