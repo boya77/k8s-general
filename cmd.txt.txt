@@ -1,0 +1,6 @@
+# kubectl exec -ti demo -- /bin/sh -c "echo 'i hope this is persistent'> /mnt/mydata.txt"
+# kubectl exec -ti demo -- cat /mnt/mydata.txt
+# kubectl delete pod demo
+# kubectl create pvpod.yml
+# kubectl exec -ti demo -- cat /mnt/mydata.txt
+
