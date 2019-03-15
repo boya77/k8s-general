@@ -1,4 +1,6 @@
 https://medium.com/mayadata/kubernetes-label-selector-and-field-selector-81d6967bb2f
 
 To Deploy Wordpress using secret, volume etc.
-https://kubernetes.io/docs/tutorials/stateful-application/mysql-wordpress-persistent-volume/
+https://medium.com/@containerum/how-to-deploy-wordpress-and-mysql-on-kubernetes-bda9a3fdd2d5
+
+
