@@ -1,4 +1,4 @@
-apiVersion:
+apiVersion: v1
 kind: Pod
 metadata:
   name: empty-dir-pod
@@ -9,6 +9,7 @@ spec:
     volumeMounts:
     - name: cache-volume
       mountPath: /cache
-  volume: 
+  volumes: 
   - name: cache-volume
     emptyDir: {}
+
